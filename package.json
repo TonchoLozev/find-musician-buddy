@@ -1,0 +1,24 @@
+{
+  "name": "find-musician-buddy",
+  "version": "1.0.0",
+  "description": "I'll try to create web App which is meant to find you a musician buddy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonchoLozev/find-musician-buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonchoLozev/find-musician-buddy/issues"
+  },
+  "homepage": "https://github.com/TonchoLozev/find-musician-buddy#readme",
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "lerna": "^3.20.2"
+  }
+}
