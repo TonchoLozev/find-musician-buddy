@@ -10,9 +10,8 @@
     "precommit": "npx lint-staged"
   },
   "lint-staged": {
-    "**/*.js": [
-      "npm run lint",
-      "git add ."
+    "*.js": [
+      "npm run lint"
     ]
   },
   "dependencies": {
