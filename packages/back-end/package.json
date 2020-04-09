@@ -8,7 +8,7 @@
     "start": "nodemon --exec ./node_modules/@babel/node/bin/babel-node.js src/index",
     "test": "jest",
     "lint": "npx eslint --fix *.js src test *.js",
-    "precommit": "npx lint-staged"
+    "precommit": "npm run lint"
   },
   "keywords": [],
   "author": "",
