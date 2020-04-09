@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
