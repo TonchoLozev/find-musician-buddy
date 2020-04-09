@@ -4,10 +4,10 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
+    "dev": "nodemon --exec ./node_modules/@babel/node/bin/babel-node.js src/index",
     "build": "npx babel src -d build",
-    "start": "nodemon --exec ./node_modules/@babel/node/bin/babel-node.js src/index",
     "test": "jest",
-    "lint": "npx eslint --fix *.js src test *.js",
+    "lint": "eslint *.js src test *.js",
     "precommit": "npm run lint"
   },
   "keywords": [],
