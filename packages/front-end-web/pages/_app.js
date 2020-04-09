@@ -6,8 +6,7 @@ import '../itscss/index.scss';
 class FindMusicianBuddy extends App {
     render() {
         const { Component, pageProps } = this.props;
-        console.log('waza');
-        console.log();
+
         return (
             <>
                 <Head>
