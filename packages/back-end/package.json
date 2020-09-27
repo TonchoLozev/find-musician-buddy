@@ -8,6 +8,7 @@
     "build": "npx babel src -d build",
     "test": "jest",
     "lint": "eslint *.js src test *.js",
+    "lint-fix": "eslint *.js src test *.js --fix",
     "precommit": "npm run lint"
   },
   "keywords": [],
