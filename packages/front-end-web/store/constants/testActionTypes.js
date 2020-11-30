@@ -1,0 +1,2 @@
+export const SET_TEST_VALUE = 'SET_TEST_VALUE';
+export const SET_TEST2_VALUE = 'SET_TEST2_VALUE';

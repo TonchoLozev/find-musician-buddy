@@ -38,6 +38,18 @@ module.exports = {
         {
           "html": "ignore"
         }
+    ],
+    "import/prefer-default-export": 0,
+    "max-len": [
+      "error", 
+      { 
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true,
+      }
     ]
   },
 };
