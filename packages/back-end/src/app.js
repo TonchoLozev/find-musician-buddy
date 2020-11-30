@@ -11,7 +11,6 @@ app.use((req, res, next) => {
     next();
 });
 
-
 app.get('/api/foo', (req, res) => {
     res.json({ foo: 'bar' });
 });
